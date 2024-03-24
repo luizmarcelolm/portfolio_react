@@ -7,9 +7,9 @@ function Footer(){
               <ul> 
                 <li><a href='https://www.linkedin.com/in/luizmarcelomota/'><FaLinkedin size={40}/></a></li>
                 <li><a href='https://github.com/luizmarcelolm'><FaGithubSquare size={40}/></a></li>
-            </ul>
-            <p>luizmarcelolm@hotmail.com</p>
-            <p>Luiz Marcelo Mota © 2024</p>
+              </ul>
+                 <p>luizmarcelolm@hotmail.com</p>
+                 <p>Luiz Marcelo Mota © 2024</p>
         </div>
     )
 }
