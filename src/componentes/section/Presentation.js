@@ -5,7 +5,9 @@ function Presentation(){
     return(
         <div className={styles.presentation} id="Presentation">
             <h2><strong>Bem-vindo ao meu portfólio</strong></h2>
-            <h1>Olá, eu sou Luiz Marcelo Mota</h1>
+            <div className={styles.divNome}>
+               <h1>Olá, eu sou Luiz Marcelo Mota</h1>
+            </div>
             <div className={styles.div}>
                 <p> Sou desenvolvedor Full Stack Júnior apaixonado por tecnologia e em constante evolução. Tenho conhecimento em ASP.NET MVC, C#, JavaScript, CSS, HTML, Bootstrap,
                 SQL  Server, Git e GitHub,e estou em busca de novas oportunidades para colocar minhas habilidades em prática. Durante os meus estudos e projetos anteriores, 

@@ -2,8 +2,41 @@
     text-align:center;
 }
 
+.presentation .divNome{
+    width: 700px;    
+}
+
 .presentation h1{
+    text-align: justify;
+    width: 0ch;
     font-size: 45px;
+
+    
+    animation: mark .6s step-end infinite, write 6s steps(22, end) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 6px solid;
+}
+
+@keyframes mark {
+    50%{
+        border-right-color: transparent;
+    } 
+}
+
+@keyframes  write{
+    25%{
+        width: 26.5ch;
+    }
+    50%{
+        width: 26.5ch;
+    }
+    75%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
 }
 
 .presentation div{
