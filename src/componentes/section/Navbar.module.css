@@ -40,3 +40,20 @@
     color:aliceblue !important;
 }
 
+@media (min-width:700px) and (max-width:1000px){
+    .navbar .menu .item{
+        font-size: 12px; 
+    }
+}
+
+@media (min-width:360px) and (max-width:699px){
+    .navbar{
+        display:grid;
+        justify-content: 100%;
+    }
+    
+    .navbar .menu .item{
+        font-size: 12px; 
+    }
+}
+

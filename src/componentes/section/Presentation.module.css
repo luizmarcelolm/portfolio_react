@@ -5,3 +5,50 @@
 .presentation h1{
     font-size: 45px;
 }
+
+.presentation div{
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+}
+
+@media (min-width:1000px) and (max-width:1550px){
+    .presentation p{
+        font-size: 14px;
+    }
+    
+}
+
+@media (min-width:700px) and (max-width:1000px){
+    .presentation h1{
+        font-size: 35px; 
+    }
+}
+
+@media (min-width:500px) and (max-width:699px){
+    .presentation h1{
+        font-size: 30px; 
+    }
+
+    .presentation div{
+        width: 450px;
+        padding: 20px;
+    }
+}
+
+@media (min-width:360px) and (max-width:499px){
+    .presentation h2{
+        font-size: 20px;
+        margin-left: 4em;
+    }
+    .presentation h1{
+        font-size: 20px;
+        padding-left: 3em;
+    }
+    .presentation div{
+        width: 100%;
+        padding-left: 3em;
+    }
+}
+
+
