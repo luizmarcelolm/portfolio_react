@@ -18,8 +18,14 @@
     border: 1px solid aliceblue; 
 }
 
-@media (min-width:700px) and (max-width:1000px){
+@media (min-width:500px) and (max-width:1000px){
     .btn{
         font-size: 12px; 
+    }
+}
+
+@media (min-width:360px) and (max-width:499px){
+    .btn{
+        font-size: 10px; 
     }
 }
