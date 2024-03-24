@@ -36,7 +36,7 @@
 
 @media (min-width:360px) and (max-width:499px){
     .skills img{
-        height: 60px;
+        height: 35px;
     }
     .skills h1{
         font-size: 25px;
