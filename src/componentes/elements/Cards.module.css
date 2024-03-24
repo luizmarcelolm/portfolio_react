@@ -105,15 +105,15 @@
 
 @media (min-width:360px) and (max-width:499px){
     .cards img{
-        width:280px ;
+        width:90% ;
     }
 
     .cards {
         display:grid;
         text-align: center; 
-        margin: 20px;
+        margin-top: 20px;
         padding: 10px; 
-        width: 300px;  
+        width: 100%;  
     }
 
     .cards section{

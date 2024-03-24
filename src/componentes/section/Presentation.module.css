@@ -19,7 +19,7 @@
     
 }
 
-@media (min-width:700px) and (max-width:1000px){
+@media (min-width:700px) and (max-width:999px){
     .presentation h1{
         font-size: 35px; 
     }
@@ -41,12 +41,17 @@
         font-size: 20px;
         margin-left: 4em;
     }
+
+    .presentation p{
+        font-size: 12px;
+    }
+
     .presentation h1{
         font-size: 20px;
         padding-left: 3em;
     }
     .presentation div{
-        width: 100%;
+        width:90%;
         padding-left: 3em;
     }
 }
