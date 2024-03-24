@@ -38,7 +38,7 @@
 
 @media (min-width:360px) and (max-width:499px){
     .presentation h2{
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 4em;
     }
 
@@ -47,9 +47,14 @@
     }
 
     .presentation h1{
-        font-size: 20px;
+        font-size: 18px;
         padding-left: 3em;
     }
+    
+    .presentation{
+        width: 90%;
+    }
+
     .presentation div{
         width:90%;
         padding-left: 3em;

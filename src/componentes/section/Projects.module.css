@@ -11,6 +11,15 @@
 @media (min-width:360px) and (max-width:1000px){
     .projects h2{
        font-size: 25px;
+       text-align: center;
+    }
+
+    .projects{
+        margin: 5px;
+    }
+
+    .projects .divButton{
+        text-align: center;
     }
 }
 
