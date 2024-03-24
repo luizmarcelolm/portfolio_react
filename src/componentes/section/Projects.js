@@ -15,7 +15,7 @@ function Projects(){
     return(
         <div className={styles.projects} id="Projects">
           <h2>Meus projetos</h2>
-          <ButtonA link="https://www.linkedin.com/in/luizmarcelomota/" text='Meus repositórios'/>
+          <ButtonA link="https://github.com/luizmarcelolm" text='Meus repositórios'/>
           <Card
              imagem={imagem1}
              title="TELA CEP/CLIMA"

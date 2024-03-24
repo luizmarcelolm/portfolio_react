@@ -14,8 +14,8 @@ function Navbar(){
             </ul>
             <ul> 
                 <ButtonC link="https://drive.google.com/file/d/1_rFpevxiDgadApU4lWSdGIdET9fNMEJu/view?usp=sharing" text='Baixe meu CV'/>
-                <li><a href='https://www.linkedin.com/in/luizmarcelomota/'><FaLinkedin size={40}/></a></li>
-                <li><a href='https://github.com/luizmarcelolm'><FaGithubSquare size={40}/></a></li>
+                <li><a href='https://www.linkedin.com/in/luizmarcelomota/' target="_blank"><FaLinkedin size={40}/></a></li>
+                <li><a href='https://github.com/luizmarcelolm' target="_blank"><FaGithubSquare size={40}/></a></li>
             </ul>
         </div>
     )

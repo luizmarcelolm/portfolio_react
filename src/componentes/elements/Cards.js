@@ -4,7 +4,7 @@ import ButtonB from './ButtonB'
 function Cards({imagem, title, tech, description, repo, site  }){
     return(
         <div className={styles.cards}>
-           <a href={site}>
+           <a href={site} target="_blank">
                <img src={imagem}/>
            </a> 
            <section>
