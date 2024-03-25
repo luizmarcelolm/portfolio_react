@@ -86,7 +86,7 @@
         display:grid;
         text-align: center; 
         margin: 25px;
-        padding: 10px;   
+        padding-top: 30px;   
     }
 
     .cards section{
@@ -112,7 +112,7 @@
         display:grid;
         text-align: center; 
         margin-top: 20px;
-        padding: 10px; 
+        padding-top: 30px;  
         width: 100%;  
     }
 
