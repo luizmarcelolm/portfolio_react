@@ -2,17 +2,17 @@
     text-align:center;
 }
 
-.presentation .divNome{
-    width: 700px;    
-}
-
 .presentation h1{
+   text-align: center;
+}   
+
+ /*
     text-align: justify;
     width: 0ch;
     font-size: 45px;
 
-    
-    animation: mark .6s step-end infinite, write 6s steps(22, end) infinite;
+   
+   animation: mark .6s step-end infinite, write 6s steps(22, end) infinite;
     white-space: nowrap;
     overflow: hidden;
     border-right: 6px solid;
@@ -38,6 +38,8 @@
         width: 0;
     }
 }
+
+*/
 
 .presentation div{
     margin: auto;
