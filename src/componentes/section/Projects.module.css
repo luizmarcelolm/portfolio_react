@@ -8,7 +8,7 @@
     margin-right: 50px;
 }
 
-@media (min-width:360px) and (max-width:1000px){
+@media (min-width:500px) and (max-width:1000px){
     .projects h2{
        font-size: 25px;
        text-align: center;
@@ -20,6 +20,12 @@
 
     .projects .divButton{
         text-align: center;
+    }
+}
+
+@media (min-width:360px) and (max-width:499px){
+    .projects{
+        margin: 30px;
     }
 }
 
