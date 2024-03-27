@@ -28,6 +28,14 @@ function Projects(){
                   site="https://tela-api.vercel.app/" />
 
                <Card 
+                  imagem={imagem10}
+                  title="Calculadora de piso"
+                  description="Aplicação criada com o intuito de facilitar o cálculo de piso e revestimento de forma rápida de acordo com a metragem inserida nos campos." 
+                  tech="React - Javascript - css - html"
+                  repo="https://github.com/luizmarcelolm/calculo_de_piso" 
+                  site="https://calculo-de-piso.vercel.app/" />   
+
+               <Card 
                   imagem={imagem2}
                   title="LandingPage"
                   description="Landing page criada do curso FullStack da escola DNC com objetivo de fixar o aprendizado das aulas." 
