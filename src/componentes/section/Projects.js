@@ -10,6 +10,7 @@ import imagem6 from '../../image/Projects/imagem6.png'
 import imagem7 from '../../image/Projects/imagem7.png'
 import imagem8 from '../../image/Projects/imagem8.png'
 import imagem9 from '../../image/Projects/imagem9.png'
+import imagem10 from '../../image/Projects/imagem10.png'
 
 function Projects(){
     return(
