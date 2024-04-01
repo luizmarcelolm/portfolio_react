@@ -1,6 +1,7 @@
 import styles from './Projects.module.css'
 import Card from '../elements/Cards'
 import ButtonA from "../elements/ButtonA"
+import ButtonD from "../elements/ButtonD"
 import {useState} from 'react'
 import imagem1 from '../../image/Projects/imagem1.png'
 import imagem2 from '../../image/Projects/imagem2.png'
@@ -38,6 +39,12 @@ function Projects(){
                   tech="Javascript - css - html - react - api"
                   repo="https://github.com/luizmarcelolm/tela_api" 
                   site="https://tela-api.vercel.app/" />
+
+                    {info === false&&(
+                              <div className={styles.button} onClick={InfoOn}>
+                                 <ButtonD  text='Ver mais projetos'/>
+                             </div>  
+                        )} 
           </div>
            
                 {info === true &&(
