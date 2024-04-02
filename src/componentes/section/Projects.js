@@ -1,6 +1,8 @@
 import styles from './Projects.module.css'
 import Card from '../elements/Cards'
 import ButtonA from "../elements/ButtonA"
+import ButtonD from "../elements/ButtonD"
+import {useState} from 'react'
 import imagem1 from '../../image/Projects/imagem1.png'
 import imagem2 from '../../image/Projects/imagem2.png'
 import imagem3 from '../../image/Projects/imagem3.png'
@@ -13,13 +15,23 @@ import imagem9 from '../../image/Projects/imagem9.png'
 import imagem10 from '../../image/Projects/imagem10.png'
 
 function Projects(){
+
+   const [info, setInfo] = useState(false)
+
+   function InfoOn(){
+       setInfo(true)
+   }
+   function InfoOff(){
+       setInfo(false)
+   }
+
     return(
-        <div className={styles.projects} id="Projects">
+        <div  onMouseLeave={InfoOff} className={styles.projects} id="Projects">
           <h2>Meus projetos</h2>
           <div className={styles.divButton}>
              <ButtonA link="https://github.com/luizmarcelolm" text='Meus repositórios'/>
           </div>
-          <div className={styles.divCards}>
+           <div className={styles.divCards}>
                <Card
                   imagem={imagem1}
                   title="TELA CEP/CLIMA"
@@ -28,6 +40,15 @@ function Projects(){
                   repo="https://github.com/luizmarcelolm/tela_api" 
                   site="https://tela-api.vercel.app/" />
 
+                    {info === false&&(
+                              <div className={styles.button} onClick={InfoOn}>
+                                 <ButtonD  text='Ver mais projetos'/>
+                             </div>  
+                        )} 
+          </div>
+           
+                {info === true &&(
+                <div onMouseLeave={InfoOff} className={styles.divCards}>
                <Card 
                   imagem={imagem10}
                   title="Calculadora de piso"
@@ -98,11 +119,12 @@ function Projects(){
                   description="Nesse projeto foi criado uma lista de tarefas online, utilizaNdo Javascript, CSS e HTML, para criação de uma lista onde você poderá adicionar e excluir as tarefas de acordo coma sua necessidade. A aplicação foi desenvolvida com responsividade para ser utilizada em celulares, tablets e notebooks." 
                   tech="Javascript - css - html"
                   repo="https://github.com/luizmarcelolm/Lista-de-tarefas" 
-                  site="https://luizmarcelolm.github.io/Lista-de-tarefas/" />   
-          </div>
-        
+                  site="https://luizmarcelolm.github.io/Lista-de-tarefas/" /> 
+
+               </div>      
+            )}
 
         </div>
-    )
+   )
 }
 export default Projects

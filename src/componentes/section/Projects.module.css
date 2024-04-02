@@ -5,8 +5,13 @@
 }
 
 .projects .divCards{
-    margin-right: 50px;
+    display:grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 @media (min-width:500px) and (max-width:1000px){
     .projects h2{
