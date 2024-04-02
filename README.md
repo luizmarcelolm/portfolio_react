@@ -1,6 +1,6 @@
 # https://portfolio-luizmarcelomota.vercel.app/
 
-# Projeto de portfólio criado com intuito de fixar o aprendizado em react, html, css, git e hooks. Durante a criação desse projeto pude aprender bastante sobre desenvolvimento de projetos do zero até a produção.
+# Projeto de portfólio de projetos criado com intuito de fixar o aprendizado em react, html, css, git e hooks. Durante a criação desse projeto pude aprender bastante sobre desenvolvimento de projetos do zero até a produção.
 
 # Foi criado 3 branchs para esse projeto.
 * Branch master: É onde o deploy de produção do projeto portfólio está rodando no vercel.
