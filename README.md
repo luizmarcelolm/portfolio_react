@@ -13,9 +13,13 @@
 # Para ter um mais de interatividade no projeto, foi utilizado o hook do react seEffect. 
 * Neste trecho de código foi criado um array com duas strings "Luiz Marcelo Mota" e "Dev FullStack" onde ficam se alternando simulando a escrita e a deleção letra a letra.
 ![image](https://github.com/luizmarcelolm/portfolio_react/assets/109484017/e7445d10-839d-46e2-869c-17be833e1e1f)
+![image](https://github.com/luizmarcelolm/portfolio_react/assets/109484017/e0da3c1a-03be-40d9-9074-bd671f7f5587)
+
 
 * Neste trecho de código foi utilizado hook so react useState para que quando foi clicado no botão abrir mais projetos na tela.
   ![image](https://github.com/luizmarcelolm/portfolio_react/assets/109484017/d1c5894f-d9a3-428b-b643-832176d1552f)
+  ![image](https://github.com/luizmarcelolm/portfolio_react/assets/109484017/b69d4d90-97e1-4863-b940-7cc1b557f88d)
+
   
   
 
