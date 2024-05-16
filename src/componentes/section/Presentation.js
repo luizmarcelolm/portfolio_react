@@ -1,11 +1,43 @@
 import ButtonA from "../elements/ButtonA"
 import styles from './Presentation.module.css'
+import { useEffect, useState } from 'react'
 
 function Presentation(){
+
+       const [text, setText] = useState('');
+    const toRotate = ['Luiz Marcelo Mota     ', 'Dev FullStack     '];
+    const [loop, setLoop] = useState(0);
+    const [isDeleting, setIsDeleting] = useState(false);
+    const period = 90;
+    const [delta, setDelta] = useState(100)  
+
+    useEffect(()=>{
+        let ticher = setInterval (()=>{
+            toType()
+        }, delta)
+        return()=>{clearInterval(ticher)}
+    }, [text])
+
+    const toType = () =>{          
+       let i = loop % toRotate.length;
+       let fullText = toRotate[i];
+       let updatedText = isDeleting ? fullText.substring(0, text.length-1) : fullText.substring(0, text.length+1)  
+       setText(updatedText);
+
+       if(!isDeleting && updatedText === fullText){
+           setIsDeleting(true);
+           setDelta(period);
+       }else if(isDeleting && updatedText === '') {
+             setIsDeleting(false);
+             setDelta(period);
+             setLoop(loop+1);
+       }
+    }
+
     return(
         <div className={styles.presentation} id="Presentation">
             <h2><strong>Bem-vindo ao meu portfólio</strong></h2>
-               <h1>Olá, eu sou Luiz Marcelo Mota</h1>   
+               <h1>Olá, eu sou {text}</h1>   
             <div className={styles.div}>
                 <p> Sou desenvolvedor Full Stack Júnior apaixonado por tecnologia e em constante evolução. Tenho conhecimento em ASP.NET MVC, C#, JavaScript, CSS, HTML, Bootstrap,
                 SQL  Server, Git e GitHub,e estou em busca de novas oportunidades para colocar minhas habilidades em prática. Durante os meus estudos e projetos anteriores, 
