@@ -76,7 +76,7 @@ function Projects(){
                <Card 
                   imagem={imagem4}
                   title="Calculadora de piso online"
-                  description="Aplicação utilizando react para calcular o IMC de acordo com os dados inseridos nos campos de altura e peso. Após inserir esses dados a aplicação irá fazer o cálculo e informar com uma mensagem na tela se o IMC esta de acordo para o peso e altura digitados." 
+                  description="Aplicação utilizando Asp net mvc para calcular a metragem de piso de acordo com os dados inseridos nos campos." 
                   tech="Asp.net mvc - css - html - azure - Library IronPdf - Bootstrap"
                   repo="https://github.com/luizmarcelolm/CalculadoraOnlineDePiso" 
                   site="https://github.com/luizmarcelolm/CalculadoraOnlineDePiso" />
@@ -84,7 +84,7 @@ function Projects(){
                <Card 
                   imagem={imagem5}
                   title="Alimentador automático de peixe"
-                  description="Aplicação utilizando react para calcular o IMC de acordo com os dados inseridos nos campos de altura e peso. Após inserir esses dados a aplicação irá fazer o cálculo e informar com uma mensagem na tela se o IMC esta de acordo para o peso e altura digitados." 
+                  description="Aplicação utilizando c++ com a finalidade de criar um alimentador de peixe betta automáticamente de acordo com a definição dos horários configurados." 
                   tech="C++ - arduino - impressão 3d - automação"
                   repo="https://github.com/luizmarcelolm/Alimentador_Peixe_V3" 
                   site="https://github.com/luizmarcelolm/Alimentador_Peixe_V3" />
